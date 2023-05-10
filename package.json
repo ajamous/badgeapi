@@ -1,0 +1,29 @@
+{
+  "name": "badge-api",
+  "version": "1.0.0",
+  "description": "API for conferences that will generate unique visitor badges when form data is passed to the API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "badge",
+    "api",
+    "exhibitions",
+    "visitors",
+    "api",
+    "tickets"
+  ],
+  "author": "Ameed Jamous",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "qrcode": "^1.5.3",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  }
+}
