@@ -2,18 +2,24 @@
 
 This is an API for a visitor management system that allows registering new visitors and generating a ticket with a unique QR code that can be used for verification.
 
-Dependencies
+**Dependencies**
 
 This project requires the following dependencies:
 
-Express
-Cors
-Body-parser
-Sequelize
-UUID
-QRCode
-fs
-Endpoints
+```json
+
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.2",
+    "sequelize": "^6.6.5",
+    "uuid": "^8.3.2",
+    "qrcode": "^1.4.4",
+    "fs": "0.0.1-security"
+  }
+
+```
 
 Register
 This endpoint is used to register a new visitor.
